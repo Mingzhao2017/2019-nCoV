@@ -11,18 +11,23 @@
   </a>
 </p>
 
-This repo holds the code for crawling the **latest news** on the pneumonia virus from Clove doctor's [website](https://3g.dxy.cn/newh5/view/pneumonia)
+This repo holds the code for crawling the **latest news** on the pneumonia virus from the Internet
 
-[中文](https://github.com/mathors/2019-nCoV/blob/master/README-cn.md) | [English](https://github.com/mathors/2019-nCoV)
+[中文](https://github.com/wmathor/2019-nCoV/blob/master/README-cn.md) | [English](https://github.com/wmathor/2019-nCoV)
 
 The content of the crawling includes the number of confirmed cases, the number of suspected cases, the progress of relevant research (source of infection, route of transmission, etc.), the number of infected cases in various provinces and the latest 3 real-time news
 
 If you don't see your province in an infected province, it may be because no cases have been found, but that doesn't mean you can let your guard down
 
-It may be faster for domestic users to [download](https://www.qsc.zju.edu.cn/box/-16868405 ) EXE files through this link
+It may be faster for domestic users to [download](https://www.qsc.zju.edu.cn/box/-52532538) EXE files through this link
+
+Remember, don't use it too often, because the interface has a anti-crawl mechanism, which may cause your IP to be blacklisted. If you are blacklisted, you can't get the information. Note: frequent use refers to using the program more than twice in one second
 
 ----
-### :art:2020-02-03 New Program
+### :art:2020-02-18 V2.7 update
+- The data interface was replaced
+- The code has been refactored and now looks cleaner
+### 2020-02-03 New Program
 The function of 2019-ncov-timer. py program is to crawl the data at 0:00 am every day, and save it in the current sheet with the date of the day as the sheet name. The program was written to make it easier for researchers to analyze data
 
 Please read the following notes carefully
